@@ -1,0 +1,23 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "openly",
+  "compatibility_date": "2026-03-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "main": "./src/index.ts",
+  "d1_databases": [
+    {
+      "binding": "OPENLY",
+      "database_name": "openly-db","database_id": "be3f279f-a069-46e0-bd11-ce628abaf881"
+    }
+  ],
+  "kv_namespaces": [
+    {
+      "binding": "PENDING","id": "930487b37fe9479ab64cd8f78a3911cd"
+    }
+  ],
+  "send_email": [
+    {
+      "name": "EMAIL"
+    }
+  ]
+}
